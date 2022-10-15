@@ -9,13 +9,13 @@ int main()
     unsigned char * start = (unsigned char *)c;
 
     //Get the int that starts at offset 7
-    int i =  (int) c[7];      //CHANGE THIS LINE
+    int i =  (int) start[7];      //CHANGE THIS LINE
 
     //Print out int in decimal
     printf("i : %d\n", i);
 
     //Get the short that starts at offset 15
-    short s = (int) c[15];    //CHANGE THIS LINE
+    short s = (short) c[15];    //CHANGE THIS LINE
     //Print out short in decimal
     printf("s : %hd\n", s);
 
