@@ -9,7 +9,7 @@ int main()
     unsigned char * start = (unsigned char *)c;
 
     //Get the int that starts at offset 7
-    int i =  (int) start[7 + 8 + 9 + 10];      //CHANGE THIS LINE
+    int i =  (int) start[7 + 8 + 9];      //CHANGE THIS LINE
 
     //Print out int in decimal
     printf("i : %d\n", i);
