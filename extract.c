@@ -15,7 +15,7 @@ int main()
     printf("i : %d\n", i);
 
     //Get the short that starts at offset 15
-    short s = (short) c[15];    //CHANGE THIS LINE
+    short s = (int) c[15];    //CHANGE THIS LINE
     //Print out short in decimal
     printf("s : %hd\n", s);
 
