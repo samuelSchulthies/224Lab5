@@ -1,9 +1,19 @@
 #include <stdio.h>
 
-int getPadding(int width)
-{
-    //COMPUTE THE PADDING HERE AND RETURN IT
-    return 0; //CHANGE THIS LINE
+int getPadding(int width) {
+    int padding = 0;
+
+//    for (int i = 0; i < width; ++i){
+//        padding = width /
+//    }
+    if (width % 4 == 0){
+        return padding;
+    }
+    else {
+        padding = (width * 3) % 4;
+    }
+
+    return padding; //CHANGE THIS LINE
 }
 
 int main()
