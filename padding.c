@@ -3,9 +3,6 @@
 int getPadding(int width) {
     int padding = 0;
 
-//    for (int i = 0; i < width; ++i){
-//        padding = width /
-//    }
     if (width % 4 == 0){
         return padding;
     }
