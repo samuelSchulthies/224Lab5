@@ -10,7 +10,7 @@ int getPadding(int width) {
         return padding;
     }
     else {
-        padding = (width * 3) % 4;
+        padding = width % 4;
     }
 
     return padding; //CHANGE THIS LINE
